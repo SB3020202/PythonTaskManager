@@ -1,0 +1,8 @@
+""" ------------------------------------------- FR4 ------------------------------------------- """
+@dataclass
+class Car:
+    plate: str
+    model: str
+    fuel: str
+    status: str
+    inspection_date: date
