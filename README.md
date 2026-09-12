@@ -7,10 +7,10 @@ Self-made project to master Python.
 
 | FR | Description | Status |
 |----|-------------|--------|
-| 1 | Create a `Car` class with attributes: plate, model, fuel, status, and inspection date. | ⬜ |
-| 2 | Create a `Garage` class that holds a list of `Car` objects. | ⬜ |
-| 3 | Implement inheritance: `ElectricCar` and `CombustionCar` derived from `Car`. | ⬜ |
-| 4 | Use `@dataclass` decorator to simplify the `Car` class definition. | ⬜ |
+| 1 | Create a `Car` class with attributes: plate, model, fuel, status, and inspection date. | ✅ |
+| 2 | Create a `Garage` class that holds a list of `Car` objects. | ✅ |
+| 3 | Implement inheritance: `ElectricCar` and `CombustionCar` derived from `Car`. | ✅ |
+| 4 | Use `@dataclass` decorator to simplify the `Car` class definition. | ✅ |
 | 5 | Use `enum.Enum` for `Fuel` (PETROL, DIESEL, ELECTRIC) and `Status` (AVAILABLE, IN_MAINTENANCE, SOLD). | ⬜ |
 | 6 | Store all garages in a `dict[str, Garage]` indexed by garage ID. | ⬜ |
 | 7 | Implement custom exceptions: `CarNotFoundException`, `DuplicateCarException`. | ⬜ |
